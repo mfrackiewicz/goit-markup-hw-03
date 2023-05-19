@@ -15,60 +15,76 @@
     />
   </head>
   <body>
-    <header>
-      <a class="menu-button" href="./index.html">
-        <span class="web-button">Web</span><span>Studio</span></a
-      >
-      <nav>
-        <ul class="menu-links">
-          <li><a class="menu-links-item" href="./index.html">Agencja</a></li>
-          <li><a class="menu-links-item" href="#">Portfolio</a></li>
-          <li><a class="menu-links-item" href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <ul class="contact-links">
-        <li>
-          <a class="contact-links-item" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-links-item" href="tel:+48111111111"
-            >+48 111 111 111</a
-          >
-        </li>
-      </ul>
+    <header class="container">
+      <div class="wrapper">
+        <div class="navigation">
+          <section>
+            <a class="menu-button" href="index.html">
+              <span class="web-button">Web</span><span>Studio</span></a
+            >
+          </section>
+          <nav>
+            <ul class="menu-links">
+              <li>
+                <a class="menu-links-item" href="./index.html">Agencja</a>
+              </li>
+              <li>
+                <a class="menu-links-item" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="menu-links-item" href="#">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section>
+          <div class="contact">
+            <ul class="contact-links">
+              <li>
+                <a class="contact-links-item" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contact-links-item" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
     </header>
     <main>
       <section>
-        <ul class="portfolio-button">
-          <li>
-            <button class="portfolio-button-item" type="button">
-              Wszystkie
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-button-item" type="button">Strony</button>
-          </li>
-          <li>
-            <button class="portfolio-button-item" type="button">
-              Aplikacje
-            </button>
-          </li>
-          <li>
-            <button class="portfolio-button-item" type="button">Dizajn</button>
-          </li>
-          <li>
-            <button class="portfolio-button-item" type="button">
-              Marketing
-            </button>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul class="portfolio-item">
-          <li>
-            <article>
+        <div class="container">
+          <ul class="portfolio-button">
+            <li>
+              <button class="portfolio-button-item" type="button">
+                Wszystkie
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-button-item" type="button">
+                Strony
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-button-item" type="button">
+                Aplikacje
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-button-item" type="button">
+                Dizajn
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-button-item" type="button">
+                Marketing
+              </button>
+            </li>
+          </ul>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img1-2.jpg"
@@ -77,14 +93,14 @@
                   height="294"
                 />
                 <figcaption>
-                  <p class="portfolio-item-title">Technocrack</p>
-                  <p class="portfolio-item-description">Strona internetowa</p>
+                  <div class="portfolio-info">
+                    <p class="portfolio-item-title">Technocrack</p>
+                    <p class="portfolio-item-description">Strona internetowa</p>
+                  </div>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-          <li>
-            <article>
+            </li>
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img2-2.jpg"
@@ -99,10 +115,8 @@
                   <p class="portfolio-item-description">Dizajn</p>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-          <li>
-            <article>
+            </li>
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img3-2.jpg"
@@ -115,10 +129,8 @@
                   <p class="portfolio-item-description">Aplikacja</p>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-          <li>
-            <article>
+            </li>
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img4-2.jpg"
@@ -131,10 +143,8 @@
                   <p class="portfolio-item-description">Marketing</p>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-          <li>
-            <article>
+            </li>
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img5-2.jpg"
@@ -147,10 +157,8 @@
                   <p class="portfolio-item-description">Aplikacja</p>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-          <li>
-            <article>
+            </li>
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img6-2.jpg"
@@ -163,10 +171,8 @@
                   <p class="portfolio-item-description">Strona internetowa</p>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-          <li>
-            <article>
+            </li>
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img7-2.jpg"
@@ -179,10 +185,8 @@
                   <p class="portfolio-item-description">Dizajn</p>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-          <li>
-            <article>
+            </li>
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img8-2.jpg"
@@ -195,10 +199,8 @@
                   <p class="portfolio-item-description">Marketing</p>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-          <li>
-            <article>
+            </li>
+            <li class="portfolio-item">
               <figure>
                 <img
                   src="images/img9-2.jpg"
@@ -211,25 +213,34 @@
                   <p class="portfolio-item-description">Aplikacja</p>
                 </figcaption>
               </figure>
-            </article>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer">
-      <a class="footer-button" href="./index.html">
-        <span class="web-button">Web</span><span>Studio</span>
-      </a>
-      <address>
-        <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21 <br /></p>
-        <a class="contact-links-item" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <br />
-        <a class="contact-links-item" href="tel:+48111111111"
-          >+48 111 111 111</a
-        >
-      </address>
+    <footer>
+      <div class="container">
+        <a class="footer-button" href="index.html"
+          ><span class="web-button">Web</span><span>Studio</span>
+        </a>
+        <address>
+          <ul class="footer-links">
+            <li>
+              <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</p>
+            </li>
+            <li class="footer-gap">
+              <a class="footer-links-item" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+            </li>
+            <li class="footer-gap">
+              <a class="footer-links-item" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
